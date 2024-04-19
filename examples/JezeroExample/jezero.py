@@ -6,10 +6,13 @@ import copy
 import anuga
 import numpy as np
 import math
-from suspendedtransport_operator import suspendedtransport_operator
-from bedloadtransport_operator import bedloadtransport_operator
-from friction_operator import friction_operator
-from AngleofRepose_operator import AoR_operator
+
+from anuga_erosion import suspendedtransport_operator
+from anuga_erosion import bedloadtransport_operator
+from anuga_erosion import friction_operator
+from anuga_erosion import AoR_operator
+
+
 from jezeroanalysisfunctions import finalstats
 from model_params import grainD, gravity, constantn
 

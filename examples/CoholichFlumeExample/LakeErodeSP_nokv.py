@@ -4,10 +4,12 @@ import anuga, copy
 import numpy as np
 import math
 from scipy import spatial
-from suspendedtransport_operator import suspendedtransport_operator
-from bedloadtransport_operator import bedloadtransport_operator
-from friction_operator import friction_operator
-from AngleofRepose_operator import AoR_operator
+
+from anuga_erosion import suspendedtransport_operator
+from anuga_erosion import bedloadtransport_operator
+from anuga_erosion import friction_operator
+from anuga_erosion import AoR_operator
+
 from model_params import gravity, grainD, constantn
 
 

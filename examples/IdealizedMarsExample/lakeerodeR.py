@@ -11,10 +11,12 @@ import copy
 import anuga
 import numpy as np
 import math
-from anuga_erosion.suspendedtransport_operator import suspendedtransport_operator
-from anuga_erosion.bedloadtransport_operator import bedloadtransport_operator
-from anuga_erosion.friction_operator import friction_operator
-from anuga_erosion.AngleofRepose_operator import AoR_operator
+
+from anuga_erosion import suspendedtransport_operator
+from anuga_erosion import bedloadtransport_operator
+from anuga_erosion import friction_operator
+from anuga_erosion import AoR_operator
+
 from analysisfunctions import finalstats
 from model_params import gravity, grainD, constantn
 
