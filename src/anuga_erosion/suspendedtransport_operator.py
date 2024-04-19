@@ -6,7 +6,7 @@ Fassett implementation
 
 from anuga.operators.base_operator import Operator
 from anuga import Region
-from frictionfunctions import *
+from .frictionfunctions import *
 
 import math
 import numpy as np

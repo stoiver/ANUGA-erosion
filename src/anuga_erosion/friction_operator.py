@@ -10,7 +10,7 @@ from anuga import Region
 
 import math
 import numpy as np
-from frictionfunctions import *
+from .frictionfunctions import *
 from model_params import dthresh, gravity, grainD, constantn, frictionscheme 
 
 class friction_operator(Operator, Region)  :

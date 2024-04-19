@@ -12,10 +12,10 @@ Need to crosscheck this with the Coholich version
 
 from anuga.operators.base_operator import Operator
 from anuga import Region
-from frictionfunctions import *
+from .frictionfunctions import *
 import math
 import numpy as np
-from model_params import Wd, Sd, porosity, grainD, frictionscheme, gravity, dthresh, maxrate, bed_tau_crit, m, Ke
+from .model_params import Wd, Sd, porosity, grainD, frictionscheme, gravity, dthresh, maxrate, bed_tau_crit, m, Ke
 
 
 class bedloadtransport_operator(Operator, Region)  :
